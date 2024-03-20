@@ -3,7 +3,7 @@ The Android device tree for the DJI RC (RM330) device, built using the twrpdtgen
 
 The /omni_device/ folder contains the omni style device tree
 
-The /twrp_device/ folder contains the omni style device tree to build the TWRP using for example the minimal manifest TWRP AOSP https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp/tree/twrp-11
+The /twrp_device/ folder contains the twrp style device tree to build the TWRP using for example the minimal manifest TWRP AOSP https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp/tree/twrp-11
 
 The /rm330_touchscreen_driver/ contains Himax_firmware.bin which is the driver for TWRP so the touchscreen would work.
 
