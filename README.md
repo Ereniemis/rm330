@@ -9,4 +9,6 @@ The /rm330_touchscreen_driver/ contains Himax_firmware.bin which is the driver f
 
 After building the TWRP recovery, decompress it using unmkbootimg and place the Himax_firmware.bin into ramdisk -> /vendor/firmware/ and repack using mkbootimg. After fastboot flash recovery twrp.img you should have working touchscreen.
 
-I've also included the built TWRP and boot image, and also the stock boot.img and stock recovery.img if you wanted to go back. You need the stock recovery to apply any updates from DJI.
+I've also included the built already TWRP and boot image.
+
+I've also included the stock boot.img and stock recovery.img if you wanted to revert things. If you want to apply any updates from DJI, you need the stock recovery to
